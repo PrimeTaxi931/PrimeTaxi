@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PrimeTaxi - Fast, reliable, and safe taxi service at your doorstep. Book a ride now!">
+    <title>PrimeTaxi - Reliable Taxi Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <h1>PrimeTaxi</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h2>Your Ride, Anytime, Anywhere</h2>
+            <p>Reliable, fast, and safe taxi service with just a click. Book your ride now with PrimeTaxi!</p>
+            <a href="#booking" class="cta-button">Book a Ride</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Airport Transfers</h3>
+                <p>Reliable and timely airport transfers to and from the airport.</p>
+            </div>
+            <div class="service-card">
+                <h3>Corporate Bookings</h3>
+                <p>Professional transportation for corporate meetings and events.</p>
+            </div>
+            <div class="service-card">
+                <h3>Long-Distance Rides</h3>
+                <p>Comfortable long-distance rides at affordable prices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book a Ride</h2>
+        <form action="#" method="POST">
+            <label for="pickup-location">Pickup Location:</label>
+            <input type="text" id="pickup-location" name="pickup-location" required>
+
+            <label for="dropoff-location">Dropoff Location:</label>
+            <input type="text" id="dropoff-location" name="dropoff-location" required>
+
+            <label for="ride-date">Date and Time:</label>
+            <input type="datetime-local" id="ride-date" name="ride-date" required>
+
+            <button type="submit" class="cta-button">Book Now</button>
+        </form>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>PrimeTaxi is dedicated to providing you with a fast, safe, and reliable taxi service. Our drivers are professional, our fleet is modern, and we guarantee excellent customer service every time.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PrimeTaxi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
